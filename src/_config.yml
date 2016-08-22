@@ -21,8 +21,8 @@ style:
     # headline: "#1919bf"
     description: "white"
     article:
-        odd: "#ccc"
-        even: "#fff"
+        odd: "#ddd"
+        even: "#eee"
 
 links:
   - github: "https://github.com/sagemathinc/smc"
