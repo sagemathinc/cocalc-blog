@@ -1,6 +1,6 @@
 ---
 title: "How do I start a Jupyter kernel in a SageMath Worksheet?"
-date:   2016-09-14 19:30:00
+date:   2016-08-14 19:30:00
 categories: smc
 ---
 

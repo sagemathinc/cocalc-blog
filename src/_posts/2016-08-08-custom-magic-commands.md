@@ -1,6 +1,6 @@
 ---
 title: 'Creating Custom "Mode Commands" in Sage Worksheets'
-date:   2016-09-08 9:30:00
+date:   2016-08-08 9:30:00
 categories: smc
 ---
 

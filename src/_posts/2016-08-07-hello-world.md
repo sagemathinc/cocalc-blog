@@ -1,6 +1,6 @@
 ---
 title:  "Hello World"
-date:   2016-09-07 9:30:00
+date:   2016-08-07 9:30:00
 categories: smc
 ---
 
