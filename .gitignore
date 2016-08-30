@@ -2,5 +2,5 @@ www/
 src/_demoexamples/
 *.term
 
-../src/.sass-cache
+src/.sass-cache
 *.sage-chat
