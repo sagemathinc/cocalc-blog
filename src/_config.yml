@@ -5,8 +5,8 @@ description: "News and updates about SageMathCloud"
 more: "read more"
 url: "http://blog.sagemath.com"
 
-baseurl: "" # comment out if in root directory
-#baseurl: "/369491f1-9b8a-431c-8cd0-150dd15f7b11/raw/blog.sagemath/www/"
+# e.g.  "/369491f1-9b8a-431c-8cd0-150dd15f7b11/raw/blog.sagemath/www/"
+baseurl: ""
 
 future: false
 

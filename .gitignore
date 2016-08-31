@@ -3,4 +3,5 @@ src/_demoexamples/
 *.term
 
 src/.sass-cache
+src/_config_preview.yml
 *.sage-chat
