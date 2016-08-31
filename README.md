@@ -32,6 +32,10 @@ That's only useful for authoring and the baseurl is hardcoded to a project on SM
 
 3. make sure to restart terminal to fix your path
 
+## Categories (in the works)
+- News -- New things related to the product or company
+- At Work -- Case studies on using SMC for something real
+
 ## License
 
 CC BY-4.0
