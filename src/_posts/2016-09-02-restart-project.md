@@ -2,6 +2,7 @@
 title:  "Tip #1: Restart Project"
 date:   2016-09-02 12:59:00
 categories: tipps
+author: haraldschilly
 ---
 
 Today's little usage tip is about resource usage and project restarts.

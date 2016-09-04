@@ -2,6 +2,7 @@
 title:  "Hello World"
 date:   2016-08-07 9:30:00
 categories: smc
+author: haraldschilly
 ---
 
 We are the [SageMathCloud](https://cloud.sagemath.com) developers!
