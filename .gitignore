@@ -1,5 +1,6 @@
 www/
 src/_demoexamples/
+src/.sass-cache/
 *.term
 
 src/.sass-cache
