@@ -19,5 +19,5 @@ It's simple, straightforward, and you are in control.
 
 Additionally, a second level of line numbering helps to orient inside a cell and across the whole document.
 
-<img src="{{ '/img/sagews-cell-toggle-2.png' | prepend: site.baseurl }}" style="width:100%" >
+<img src="{{ '/img/sagews-cell-toggle-2.png' | prepend: site.baseurl }}" style="width:75%" >
 
