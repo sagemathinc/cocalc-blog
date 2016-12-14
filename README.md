@@ -18,9 +18,9 @@ That's only useful for authoring and the baseurl is hardcoded to a project on SM
 
 ## Install
 
-0. you need ruby
+0. You need ruby
 
-1. install jekyll and some extras
+1. Install jekyll and some extras
 
        gem install --user-install jekyll jekyll-feed jekyll-pagination bundler
 
@@ -30,11 +30,15 @@ That's only useful for authoring and the baseurl is hardcoded to a project on SM
 
    (check if really ruby 2.1.0 in the path!)
 
-3. make sure to restart terminal to fix your path
+3. Make sure to restart terminal to fix your path
 
 ## Categories (in the works)
 - News -- New things related to the product or company
 - At Work -- Case studies on using SMC for something real
+
+## Analytics for our blog
+
+https://analytics.google.com/analytics/web/#report/content-overview/a34321400w122528512p128198125/ 
 
 ## License
 
