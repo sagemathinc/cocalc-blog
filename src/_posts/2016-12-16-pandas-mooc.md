@@ -18,7 +18,7 @@ After uploading a course .ipynb file, change the kernel from `Python3` to `Anaco
 
 ### 2. Convert Jupyter notebooks to Sage worksheets.
 
-If you would rather code in a Sage worksheet than a Jupyter notebook, use the SMC script `smc-ipynb2sagews` to convert the files. Open terminal file, for example mooc.term, and enter the following commands
+If you would rather code in a Sage worksheet than a Jupyter notebook, use the SMC script `smc-ipynb2sagews` to convert the files. Open a terminal file, for example mooc.term, and enter the following commands
 
     $ cp Assignment\ 2.ipynb assgn2.ipynb
     $ smc-ipynb2sagews assgn2.ipynb
@@ -34,7 +34,7 @@ Note that there is no script to convert Sage worksheets back to Jupyter notebook
 
 ### Results
 
-I was able review in-lecture examples and do all homework with Sage worksheets. In once instance, the final assignment for the class, my solution worked on SMC, but the Coursera hosted notebook consistently exhibited a Jupyter kernel crash; the automatic grader accepted the assignment. (And the way the class was graded, it was necessary to get this problem right to pass the course.)
+I was able review in-lecture examples and do all homework with Sage worksheets. In one instance, the final assignment for the class, my solution worked on SMC, but the Coursera hosted notebook consistently exhibited a Jupyter kernel crash; the automatic grader accepted the assignment. (And the way the class was graded, it was necessary to get this problem right to pass the course.)
 
 One feature of SMC that can save time and stress is **Time Travel**, which lets you view past versions of a file and restore to a previous version. I don't use it often, but am glad to have it when a particular approach to a problem isn't working out, or a better way of doing things becomes clear.
 
