@@ -36,9 +36,17 @@ That's only useful for authoring and the baseurl is hardcoded to a project on SM
 - News -- New things related to the product or company
 - At Work -- Case studies on using SMC for something real
 
+## Including images
+
+Like all the other assets, they need base url prefixing.
+The canonical location for images is `src/img`.
+Therefore, include them like that:
+
+    <img src="{{ '/img/smc-sagews-cell-toggle-2.png' | prepend: site.baseurl }}">
+
 ## Analytics for our blog
 
-https://analytics.google.com/analytics/web/#report/content-overview/a34321400w122528512p128198125/ 
+https://analytics.google.com/analytics/web/#report/content-overview/a34321400w122528512p128198125/
 
 ## License
 
