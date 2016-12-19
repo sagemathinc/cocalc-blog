@@ -4,7 +4,7 @@ date:   2016-12-16 20:56:37
 categories: python mooc datascience
 author: halsnyder
 ---
-Here are a couple tips based on my experience using SMC to complete the Coursera course, [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis). This course is the first installment of a new 5-part [Applied Data Science with Python Specialization](https://www.coursera.org/learn/python-data-analysis) from the University of Michigan.
+Here are a couple tips based on my experience using SMC to complete the Coursera course, [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis). This course is the first installment of a new 5-part [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) from the University of Michigan.
 
 Examples and study assignments for the course are offered as Python3 Jupyter notebooks, i.e. `.ipynb` files. Students may use Coursera-hosted jupyter notebooks or any other platform that allows them to run the code. Homework is submitted by uploading a .ipynb file for each programming assignment.
 
