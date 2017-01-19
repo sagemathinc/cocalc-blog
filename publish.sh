@@ -2,6 +2,9 @@
 set -ve
 cd "$(dirname "$0")"
 
+# run make.sh again (don't run preview!!!)
+./make.sh
+
 DOMAIN="blog.sagemath.com"
 export DOMAIN
 
