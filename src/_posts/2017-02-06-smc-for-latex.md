@@ -197,7 +197,7 @@ We have a side-by-side Markdown (and HTML) editor with realtime
 preview, which fully supports $\LaTeX$ formulas.
 
 <div style="text-align: center;">
-<img src="{{ '/img/forward.png' | prepend: site.baseurl }}" style="width:75%" >
+<img src="{{ '/img/phugoid.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
 <i>Jupyter notebook with Python kernel showing LaTeX.</i>
 </div>
