@@ -30,13 +30,13 @@ Overleaf. Overleaf doesn’t even show cursors of other users.
 <div style="text-align: center;">
 <img src="{{ '/img/twocursors.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Collaborator Hal using two cursors.*
+<i>Collaborator Hal using two cursors.</i>
 </div>
 
 In addition, as with Google docs, SMC has a chat on the side of each
 document. Improving on Google docs, you can include mathematical
 formulas and markdown in the side chat which are beautifully rendered,
-and <span>*edit*</span> any past chat message.
+and <i>edit</i> any past chat message.
 Other collaborators are notified of messages via a bell in the upper
 right, similar to Facebook. In comparison, Overleaf doesn’t have
 document chat; ShareLaTeX has it, but does not allow editing past chats
@@ -45,7 +45,7 @@ or Markdown formatting.
 <div style="text-align: center;">
 <img src="{{ '/img/sidechat.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Editable chat beside file views.*
+<i>Editable chat beside file views.</i>
 </div>
 
 SMC has $\TeX$-aware spell checking.
@@ -61,7 +61,7 @@ two points in time (and who made those changes).
 <div style="text-align: center;">
 <img src="{{ '/img/timetravel.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Edit history showing diff between two versions.*
+<i>Edit history showing diff between two versions.</i>
 </div>
 
 In addition, we store several hundred read-only snapshots of the complete
@@ -72,13 +72,13 @@ graphical editor (e.g., vim or emacs via a terminal).
 <div style="text-align: center;">
 <img src="{{ '/img/backups.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Accessing backups of a file.*
+<i>Accessing backups of a file.</i>
 </div>
 
 <div style="text-align: center;">
 <img src="{{ '/img/snapshots.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Recent snapshots of project shown under backups.*
+<i>Recent snapshots of project shown under backups.</i>
 </div>
 
 You can use Git, Subversion, RSync, etc. on the command line to
@@ -108,7 +108,7 @@ put anything you want in the command line in the image below:
 <div style="text-align: center;">
 <img src="{{ '/img/xelatex.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Customizing build command to use XeLaTeX.*
+<i>Customizing build command to use XeLaTeX.</i>
 </div>
 
 ### Dynamic Content
@@ -127,7 +127,7 @@ Overleaf and ShareLaTeX have only limited R support.
 <div style="text-align: center;">
 <img src="{{ '/img/rmarkdown.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Compiling an R Markdown File in SMC.*
+<i>Compiling an R Markdown File in SMC.</i>
 </div>
 
 Our environment offers integrated Jupyter notebooks and Sage
@@ -142,8 +142,8 @@ Cells can be started with `%latex` to typeset their contents using $\LaTeX$.
 <div style="text-align: center;">
 <img src="{{ '/img/sagewsastro.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Sage worksheet with $\LaTeX$ in markdown and symbolic expressions, with
-units of measure.*
+<i>Sage worksheet with $\LaTeX$ in markdown and symbolic expressions, with
+units of measure.</i>
 </div>
 
 <br>
@@ -151,7 +151,7 @@ units of measure.*
 <div style="text-align: center;">
 <img src="{{ '/img/sagewslatexr.jpg' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Sage worksheet with symbolic expression and calculation in R.*
+<i>Sage worksheet with symbolic expression and calculation in R.</i>
 </div>
 
 We [provide a Docker image](https://github.com/sagemathinc/smc/blob/master/src/dev/docker/README.md)
@@ -175,14 +175,14 @@ point in the text editor to the corresponding point in the preview.
 <div style="text-align: center;">
 <img src="{{ '/img/forward.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Forward search in $\LaTeX$ edit window.*
+<i>Forward search in $\LaTeX$ edit window.</i>
 </div>
 <br>
 <br>
 <div style="text-align: center;">
 <img src="{{ '/img/inverse.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Inverse search in $\LaTeX$ edit window.*
+<i>Inverse search in $\LaTeX$ edit window.</i>
 </div>
 
 We have a full-featured text editor for $\LaTeX$ documents. Like a coding
@@ -199,7 +199,7 @@ preview, which fully supports $\LaTeX$ formulas.
 <div style="text-align: center;">
 <img src="{{ '/img/forward.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Jupyter notebook with Python kernel showing LaTeX.*
+<i>Jupyter notebook with Python kernel showing LaTeX.</i>
 </div>
 
 ### User-friendly experience
@@ -220,7 +220,7 @@ world who give our customer service high marks.
 <div style="text-align: center;">
 <img src="{{ '/img/signup.png' | prepend: site.baseurl }}" style="width:75%" >
 <br>
-*Signing up and logging in.*
+<i>Signing up and logging in.</i>
 </div>
 
 SMC is fully web-accessible, and we provide sign-in integration with
