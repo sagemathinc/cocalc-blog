@@ -280,8 +280,9 @@ and machine learning software for data science.
 ### Estimated costs
 
 SMC allows for unlimited projects and collaborators, with 3GB of disk
-space per project, for free right now. You can just start your trial for
-free now.
+space per project, on free accounts. You can start using SMC for
+free right now by creating an account at
+<https://cloud.sagemath.com>.
 
 Our pricing is by project and is listed here:
 
