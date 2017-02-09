@@ -1,7 +1,7 @@
 ---
 author: 'Hal Snyder'
 date: 'February 6, 2017'
-title: SMC for Collaborative LaTeX Editing
+title: 'SMC for Collaborative LaTeX Editing'
 categories: latex
 ---
 SageMathCloud (SMC) is the most powerful online $\LaTeX$ collaboration software available today.
