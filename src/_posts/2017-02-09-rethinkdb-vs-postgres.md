@@ -2,9 +2,7 @@
 author: 'William Stein'
 date: 2017-02-09
 title: "RethinkDB versus PostgreSQL: my personal experience"
-categories: dev
 ---
-# RethinkDB versus PostgreSQL: my personal experience
 
 ## Introduction
 
