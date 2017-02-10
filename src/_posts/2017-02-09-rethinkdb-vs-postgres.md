@@ -1,5 +1,5 @@
 ---
-author: 'William Stein'
+author: 'William Stein (wstein@sagemath.com)'
 date: 2017-02-09
 title: "RethinkDB versus PostgreSQL: my personal experience"
 ---

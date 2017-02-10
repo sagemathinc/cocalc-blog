@@ -46,6 +46,8 @@ Therefore, include them like that:
 
 ## Analytics for our blog
 
+**Adjust the dates** here and get page views for each post:
+
 https://analytics.google.com/analytics/web/#report/content-overview/a34321400w122528512p128198125/
 
 ## License
