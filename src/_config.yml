@@ -1,6 +1,6 @@
-title: "SageMathCloud Blog"
+title: "CoCalc Blog"
 author: "SageMath, Inc."
-description: "News and updates about SageMathCloud"
+description: "News and updates about CoCalc"
 #subheading: "Really cool blog about ... something"
 more: "read more"
 url: "http://blog.sagemath.com"
@@ -27,9 +27,9 @@ style:
         even: "#efefef"
 
 links:
-  - github: "https://github.com/sagemathinc/smc"
-  - twitter: "https://twitter.com/sagemathcloud/"
-  - google-plus: "https://plus.google.com/+sagemathcloud"
+  - github: "https://github.com/sagemathinc/cocalc"
+  - twitter: "https://twitter.com/co_calc/"
+  - google-plus: "https://plus.google.com/117696122667171964473"
   - email: "office@sagemath.com"
   #- reddit: "https://www.reddit.com/user/me/"
   #- youtube: "https://www.youtube.com/user/me"
