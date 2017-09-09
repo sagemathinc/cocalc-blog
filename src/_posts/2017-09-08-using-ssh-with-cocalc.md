@@ -66,7 +66,7 @@ Open project settings (wrench icon) and look in the
 under 'Use the following username@host:'.
 You will see that the username is the same as
 the destination project id _without hyphens_,
-and the host is **always** 'ssh.cocalc.com'.
+and the host is **always** <span style="not-active">ssh.cocalc.com</span>.
 (This is a major improvement over before when the host
 depended on the project.)
 
@@ -104,7 +104,7 @@ See [Steve Friedl's Tech Tips guide](https://developer.github.com/v3/guides/usin
 
 When the client and server for an SSH connection are both
 CoCalc projects, you can use a hostname of `ssh` rather than
-`ssh.cocalc.com`.
+<span style="not-active">ssh.cocalc.com</span>.
 Using the shorter hostname gives a much faster connection,
 because it is optimized within the CoCalc cloud.
 
@@ -116,9 +116,7 @@ because it is optimized within the CoCalc cloud.
 Suppose you have a private key in the default location (file `~/.ssh/id_ed25519` on Linux or macOS) and your project id without the hyphens is `829e7b5693d611e7ae8ee70cea5e8cd7`.
 Then you would login from your terminal with
 
-```
-ssh 829e7b5693d611e7ae8ee70cea5e8cd7@ssh.cocalc.com
-```
+    ssh 829e7b5693d611e7ae8ee70cea5e8cd7@ssh.cocalc.com
 
 If you are comfortable with a unix-style command line
 terminal on your computer, logging in with SSH lets
@@ -148,30 +146,31 @@ Suppose you have
 
 You can then configure the following in
 ~/.ssh/config on your computer:
+<pre>
+    Host P1
+        IdentitiesOnly yes
+        AddKeysToAgent yes
+        Hostname ssh.cocalc.com
+        User c089024693dc11e787386acae7a6ca2d
+        IdentityFile ~/.ssh/ccdev_ed25529.pub
 
-```
-Host P1
-    IdentitiesOnly yes
-    AddKeysToAgent yes
-    Hostname ssh.cocalc.com
-    User c089024693dc11e787386acae7a6ca2d
-    IdentityFile ~/.ssh/ccdev_ed25529.pub
-
-Host P2
-    IdentitiesOnly yes
-    AddKeysToAgent yes
-    Hostname ssh.cocalc.com
-    User c218c8da93dc11e780626acae7a6ca2d
-    IdentityFile ~/.ssh/ccdev_ed25529.pub
-
-```
+    Host P2
+        IdentitiesOnly yes
+        AddKeysToAgent yes
+        Hostname ssh.cocalc.com
+        User c218c8da93dc11e780626acae7a6ca2d
+        IdentityFile ~/.ssh/ccdev_ed25529.pub
+</pre>
 
 Users of macOS may want to add [UseKeychain yes](https://developer.apple.com/library/content/technotes/tn2449/_index.html) to each host specification.
 
 With the setup above, you can log into your projects with
 `ssh P1` or `ssh P2`. In addition, you can log into
-P2 from your SSH session on P1 by doing
-`ssh c218c8da93dc11e780626acae7a6ca2d@ssh`
+P2 from your SSH session on P1 with the following. Note
+the short version of the destination hostname, which
+gives much faster logins and file transfers between projects.
+
+    ssh c218c8da93dc11e780626acae7a6ca2d@ssh
 
 ## Remote copy
 
@@ -180,9 +179,8 @@ you can copy between your computer and CoCalc
 projects. For example, if project P1 is configured
 as above, you could do
 
-```
-scp hello.txt P1:Docs/
-```
+
+    scp hello.txt P1:Docs/
 
 to copy hello.txt from the current directory
 on your computer to folder `Docs` in P1.
@@ -193,21 +191,19 @@ Again with P1 configured as above and ssh agent enabled,
 suppose you have the following on P1 and want to copy
 the Docs folder to P2:
 
-```
-Docs/
-  mydoc.tex
-  images/
-    plot1.png
-    plot2.png
-```
+    Docs/
+      mydoc.tex
+      images/
+        plot1.png
+        plot2.png
 
 Then from your home computer, you could log into P1 and
 do the following:
 
-```
-# ssh session on P1
-~$ scp -r Docs c218c8da93dc11e780626acae7a6ca2d@ssh:
-```
+
+    # ssh session on P1
+    ~$ scp -r Docs c218c8da93dc11e780626acae7a6ca2d@ssh:
+
 
 ## Hosting a git repository on CoCalc
 
@@ -220,20 +216,16 @@ Suppose you have project P1 configured in `~/.ssh/config` as
 above, and you have a repository in your home directory
 of that project with one file:
 
-```
-sample_repo
-  hello.txt
-```
+    sample_repo
+      hello.txt
 
 Then on your local computer, you can do
 
-```
-git clone P1:sample_repo
-cd sample_repo
-git checkout -b testbranch
-... edit hello.txt, git add, git commit ...
-git push origin testbranch
-```
+    git clone P1:sample_repo
+    cd sample_repo
+    git checkout -b testbranch
+    ... edit hello.txt, git add, git commit ...
+    git push origin testbranch
 
 ## Use ssh-aware tools for editing & developing software
 
@@ -244,9 +236,7 @@ With project `P1` configured as above, suppose you have
 file `sample.py` in the home directory. You can edit this
 file on your local computer with the command
 
-```
-vim scp://P1/sample.py
-```
+    vim scp://P1/sample.py
 
 ## Mount any folder in a project remotely via sshfs
 
@@ -262,16 +252,14 @@ folder `Docs` in the home directory of that project. Then
 you can do the following on your local computer and the
 project folder will be available locally in `~/P1Docs`:
 
-```
-sshfs P1:Docs ~/P1Docs
-cd ~/P1Docs
-.. work with files ...
-cd
-umount P1Docs
-```
+    sshfs P1:Docs ~/P1Docs
+    cd ~/P1Docs
+    .. work with files ...
+    cd
+    umount P1Docs
 
-If you have the Files view of the `P1` open to `Docs` while you
-are working with sshfs, you may need to click the refresh
+If you have the Files view of project `P1` open to `Docs` while you
+are working with `sshfs`, you may need to click the refresh
 icon at right to see changes to contents of the folder.
 
 
@@ -280,7 +268,7 @@ icon at right to see changes to contents of the folder.
 The following SSH features are not available in CoCalc at this time
 
 - X11 Forwarding
-- SSH tunneling, i.e. `ssh -L:1234:localhost:5678 user@remote_server.com`
+- SSH tunneling
 
 
 # Conclusion
