@@ -52,7 +52,13 @@ Mon Sep 12 11:14:20 UTC 2017
 # Other languages besides Bash?
 
 You can run any language via bash's `exec`!
-For example, `project_init.sh` containing `exec python3 project_init.py` will run a Python 3 initialization file named `project_init.py`.
+For example, `project_init.sh` containing
+
+{% highlight sh %}
+exec python3 project_init.py
+{% endhighlight %}
+
+will run a Python 3 initialization file named `project_init.py`.
 
 
 # Example 2: a periodic task in Python
