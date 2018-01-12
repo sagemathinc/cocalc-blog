@@ -1,6 +1,6 @@
 ---
 author: 'Harald Schilly'
-date: 'January 13, 2018'
+date: 'January 12, 2018'
 title: 'The focus of CoCalc'
 categories: ['cocalc']
 ---
@@ -8,7 +8,7 @@ categories: ['cocalc']
 Last year we widened our focus and <a href="http://blog.sagemath.com/cocalc/2017/05/20/smc-is-now-cocalc.html">renamed the project from "SageMathCloud" to "CoCalc"</a>.
 You can work with SageMath, Python, R and several other languages. The focus is:
 
-<p class="text-center"><strong><span style="font-size: 120%;">Collaborative Calculation in the Cloud</span></strong></p>
+<p style="text-align: center"><strong><span style="font-size: 120%;">Collaborative Calculation in the Cloud</span></strong></p>
 
 This means we designed our service with collaboration in mind. Changes to an interactive document are synchronized with all collaborators of the project.
 They are invited by you and can be your colleagues, friends or in some cases, your students.
