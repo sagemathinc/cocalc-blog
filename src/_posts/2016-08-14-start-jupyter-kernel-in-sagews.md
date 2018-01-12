@@ -1,7 +1,7 @@
 ---
 title: "How do I start a Jupyter kernel in a SageMath Worksheet?"
 date:   2016-08-14 19:30:00
-categories: smc
+categories: [smc]
 ---
 
 For a quick reminder, sample code is available for opening an Anaconda3 session. In the Sage worksheet toolbar, select **Modes > Jupyter bridge**.

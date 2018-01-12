@@ -1,7 +1,7 @@
 ---
 title:  "Install Jupyter's nbextensions configurator"
 date:   2016-11-07 09:59:00
-categories: jupyter
+categories: [jupyter]
 author: haraldschilly
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:  "using SMC with python & data science MOOC"
 date:   2016-12-16 20:56:37
-categories: python mooc datascience
+categories: [python, mooc, datascience]
 author: halsnyder
 ---
 Here are a couple tips based on my experience using SMC to complete the Coursera course, [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis). This course is the first installment of a new 5-part [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) from the University of Michigan.

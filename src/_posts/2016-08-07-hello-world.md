@@ -1,7 +1,7 @@
 ---
 title:  "Hello World"
 date:   2016-08-07 9:30:00
-categories: smc
+categories: [smc]
 author: haraldschilly
 ---
 

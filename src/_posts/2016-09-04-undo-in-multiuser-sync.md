@@ -1,7 +1,7 @@
 ---
 title:  "Multi-user sync-aware full document undo/redo"
 date:   2016-09-04 18:23:00
-categories: dev
+categories: [dev]
 author: williamstein
 ---
 

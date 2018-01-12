@@ -1,7 +1,6 @@
 ---
 title:  "Nightly Changelog #3"
 date:   2016-09-08 9:23:00
-categories:
 author: johnjeng
 ---
 

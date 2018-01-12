@@ -5,7 +5,7 @@ title: 'The focus of CoCalc'
 categories: ['cocalc']
 ---
 
-Last year we widened our focus and <a href="http://blog.sagemath.com/cocalc/2017/05/20/smc-is-now-cocalc.html" target="_blank">renamed the project from "SageMathCloud" to "CoCalc"</a>.
+Last year we widened our focus and <a href="http://blog.sagemath.com/cocalc/2017/05/20/smc-is-now-cocalc.html">renamed the project from "SageMathCloud" to "CoCalc"</a>.
 You can work with SageMath, Python, R and several other languages. The focus is:
 
 <p class="text-center"><strong><span style="font-size: 120%;">Collaborative Calculation in the Cloud</span></strong></p>
@@ -34,7 +34,9 @@ Share ideas in a **side-by-side chat** and review changes via **time-travel hist
 Once you're done, you can download your worksheet as a **standard `*.ipynb` file** or
 publish the notebook online via CoCalc's own share server.
 
+<p style="text-align: center">
 <img src="{{ '/img/focus/cocalc-jupyter-kernels.png' | prepend: site.baseurl }}" style="width:45%">
+</p>
 
 ## LaTeX Editor, Sage Worksheets, chat, teaching courses, and much more
 
@@ -42,19 +44,19 @@ All previously available applications are still fully supported.
 In fact, we spent endless hours in debugging a lot of issues, improving the overall performance, and invested heavily in the overall system stability.
 We switched to a fully containerized system using [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/) helps us to take care of operational details.
 
-Below is an assorted collection of screenshots to refresh your memory.
+Below is an assorted collection of screenshots to show you an overview.
 You can edit LaTeX documents in a side-by-side editor, do mathematics in Sage Worksheets,
 access a wide range of software in the underlying Linux terminal,
 and even teach a course using our advanced course management feature.
 
 <table>
 <tr>
-    <td><img src="{{ '/img/focus/01-worksheet.png' | prepend: site.baseurl }}" style="width:45%"></td>
-    <td><img src="{{ '/img/focus/02-courses.png' | prepend: site.baseurl }}" style="width:45%"></td>
+    <td><img src="{{ '/img/focus/01-worksheet.png' | prepend: site.baseurl }}"></td>
+    <td><img src="{{ '/img/focus/02-courses.png' | prepend: site.baseurl }}"></td>
 </tr>
 <tr>
-    <td><img src="{{ '/img/focus/03-latex.png' | prepend: site.baseurl }}" style="width:45%"></td>
-    <td><img src="{{ '/img/focus/05-sky_is_the_limit.png' | prepend: site.baseurl }}" style="width:45%"></td>
+    <td><img src="{{ '/img/focus/03-latex.png' | prepend: site.baseurl }}"></td>
+    <td><img src="{{ '/img/focus/05-sky_is_the_limit.png' | prepend: site.baseurl }}"></td>
 </tr>
 </table>
 

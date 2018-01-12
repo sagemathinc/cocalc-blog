@@ -1,7 +1,7 @@
 ---
 title: 'Creating Custom "Mode Commands" in Sage Worksheets'
 date:   2016-08-08 9:30:00
-categories: smc
+categories: [smc]
 ---
 
 ## What is a Mode Command?

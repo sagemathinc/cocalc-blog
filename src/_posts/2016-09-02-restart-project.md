@@ -1,7 +1,7 @@
 ---
 title:  "Tip #1: Restart Project"
 date:   2016-09-02 12:59:00
-categories: tipps
+categories: [tipps]
 author: haraldschilly
 ---
 

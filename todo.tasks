@@ -1,0 +1,7 @@
+{"desc":"#1 \nfavicon","position":-1,"last_edited":1481723712262,"task_id":"c7f39374-0aa7-44ae-8f96-ca11d370a786","done":1481723712262}
+{"desc":"#2\nmake it so the title at the top is SAGEMATHCLOUD, not SageMathCloud.\n","position":0,"last_edited":1481134001170,"task_id":"e85e0567-15ad-4a3e-a988-93863de5d6d9"}
+{"desc":"#2\nchange the look/theme to match SMC. \n\nRight now it looks completely different.  E.g,. white background; more of the unsaturated blue etc.","position":1,"last_edited":1481134005187,"task_id":"b656698c-0c85-4381-8a25-6b40b1c46b5d"}
+{"desc":"#1\nsetup analytics so we know how many visitors each blog gets.\n\nAlready done: https://analytics.google.com/analytics/web/#report/content-overview/a34321400w122528512p128198125/ ","position":2,"last_edited":1481723719358,"task_id":"e54d91c2-67b7-407a-8a98-ddb5a64beb6b","done":1481723719358}
+{"desc":"#5\nAt some point, consider integrating the steps in README.md into an editor for the .sage-blog filetype.\n\nIt would have the configuration (e.g., where published files go), and buttons for each task.","position":3,"last_edited":1481134281694,"task_id":"18feb510-7e36-46f3-ad60-568da18ecb9e"}
+{"desc":"#2 can we make the favicon black to match the blog?","position":4,"last_edited":1482099600541,"task_id":"4c0ce0bc-0615-4cea-9b6f-6312c28ec138"}
+{"desc":"figure out ssh key mess. for now, just run\n\n```\nexport GIT_SSH_COMMAND=\"ssh -o IdentitiesOnly=yes -i ~/.ssh/id_ed25519\"\n```\n\nprior to git push","position":-0.5,"last_edited":1498483054843,"task_id":"24c9eb2d-c2bf-4541-8ae9-1136efb76db6"}

@@ -1,7 +1,7 @@
 ---
 title:  "Nightly Changelog #1"
 date:   2016-08-29 9:23:00
-categories: smc
+categories: [smc]
 author: johnjeng
 ---
 
