@@ -2,7 +2,7 @@
 author: 'Harald Schilly'
 date: 'September 12, 2017'
 title: 'Project Initialization Scripts'
-categories: cocalc
+categories: [cocalc]
 ---
 
 Under the hood, CoCalc provides you with a very flexible and versatile Linux environment.
