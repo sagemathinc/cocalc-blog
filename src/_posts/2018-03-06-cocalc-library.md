@@ -36,7 +36,7 @@ tab to see the section with a label of "Library" on the left.
 <img src="{{ '/img/cc-library/cc-library.png' | prepend: site.baseurl }}" >
 </div>
 
-3\. The menu of Library topics is in the column just left of
+3\. The menu of Library topics is in the column just right of
 the "Library" label.
 As you scroll through the choices, you will see they are
 divided into categories. Category names do not highlight
