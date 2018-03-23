@@ -11,6 +11,7 @@ categories: ['jupyter', 'api']
 Minerva approached us last year because they needed to embed collaborative Jupyter Notebooks in their platform to support teaching computer science and other data intensive courses.  Throughout much of 2017, we supported Minerva's integration of CoCalc with their *Active Learning Forum*, and today
 they are one of our biggest customers.
 
+
 In May 2017, Minerva was investigating approaches to allowing students to collaborate on Jupyter notebooks. Classes at Minerva take place as [distributed interactive video seminars](https://www.minerva.kgi.edu/academics/small-seminars/), rather than in a conventional lecture hall, and they make heavy use of multiple people editing documents simultaneously.   Real-time synchronization can be difficult and costly to implement. With CoCalc, realtime collaboration has always been available for all document types. In March 2017, we also launched a completely [new React front end for Jupyter notebooks](http://blog.sagemath.com/jupyter/2017/05/05/jupyter-rewrite-for-smc.html) that better supports collaboration.
 
 Minerva has long used collaborative Google Docs to support their web-based classrooms, and had developed sophisticated
