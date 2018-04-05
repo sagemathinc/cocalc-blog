@@ -13,8 +13,8 @@ categories: ['latex']
 <em>enabling KaTeX in Account Preferences</em>
 </div>
 
-
 KaTeX is often [_**over 100 times faster**_](https://www.intmath.com/cg5/katex-mathjax-comparison.php) than MathJax, but it doesn't handle all expressions covered by MathJax (or LaTeX). In these cases, CoCalc with KaTeX enabled will still fall back to MathJax. The selection happens for individual expressions, so one expression in a markdown file or a notebook cell might be rendered with KaTeX, while another would be rendered with MathJax.
+
 
 Choosing KaTeX only impacts how *you* see math when interacting with CoCalc; it has no impact on collaborators or students working with you, or on the content of documents you create.
 
