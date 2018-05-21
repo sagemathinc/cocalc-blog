@@ -71,15 +71,13 @@ https://cocalc.com/policies/pricing.html
 ## The API
 
 The basic setup is to get an API key from your account page, and then issue calls to CoCalc. You can create accounts and projects, and coordinate everything using your own system and database.
-The CoCalc website has an [API reference](https://cocalc.com/doc/api.html) which documents each call and provides examples. The CoCalc team will work with customers to resolve issues that arise during.
+The CoCalc website has an [API reference](https://cocalc.com/doc/api.html) which documents each call and provides examples. The CoCalc team will work with customers to resolve any issues that arise.
 
 [Minerva Schools at KGI](https://www.minerva.kgi.edu/) are [using the CoCalc API](http://blog.cocalc.com/jupyter/api/2018/03/01/minerva-and-cocalc.html) to enable their students to work in Jupyter notebooks embedded inside an iframe on their website.
 
 ## IFrame URLs
 
-You may want to remove the upper menu bars when embedding a CoCalc file in your application.
-
-In that case, there is a special syntax for the URL to the file.
+You may want to remove the upper menu bars when embedding a CoCalc file in your application. In that case, there is a special syntax for the URL to the file.
 The word "files" appears within the URL and "?session=&fullscreen" is appended to the URL.
 
 Here's an example:
