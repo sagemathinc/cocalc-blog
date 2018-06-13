@@ -5,9 +5,9 @@ title: "Dash with CoCalc"
 categories: ['cocalc','python']
 ---
 
-Create interactive data visualizations for collaborators in your CoCalc projects using Dash.
+Create interactive data visualizations for collaborators in your CoCalc projects using [Dash](https://plot.ly/products/dash/).
 
-[Dash](https://plot.ly/products/dash/) is an open-source framework to create web applications with Python.
+Dash is an open-source framework to create web applications with Python.
 With CoCalc's [HTTPWebserver](https://github.com/sagemathinc/cocalc/wiki/HTTPWebserver) capability, you can run a Dash application from inside a CoCalc project.
 
 <div style="text-align: center;">
@@ -58,21 +58,17 @@ in the [HTTPWebserver](https://github.com/sagemathinc/cocalc/wiki/HTTPWebserver)
 In the final line, display the URL for your server
 and override default port number and
 host in the call to `app.run_server()`:
-
-    if __name__ == '__main__':
-        print("browse to https://cocalc.com{}".format(pfx))
-        app.run_server(debug=True, port=port, host='0.0.0.0')
-
+<pre>
+if __name__ == '__main__':
+    print("browse to https://cocalc.com{}".format(pfx))
+    app.run_server(debug=True, port=port, host='0.0.0.0')
+</pre>
 Back in your .term session, run the program. For example,
 if the file you just edited is `app.py`, do this:
 
     python3 app.py
 
 Copy the URL that is displayed by the program.
-It will look like this, but the project id will be different:
-
-    https://cocalc.com/d4cc78a0-6b95-11e8-8f10-3f7d9b915277/server/9990/
-
 Open a new browser tab and paste in the URL. You will see the "Hello Dash" demo.
 
 Note: Because of the way CoCalc security works, only collaborators on the given project can access the webserver. Our proxy server will reject all other requests.
