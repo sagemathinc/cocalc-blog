@@ -61,7 +61,7 @@ I tried very hard to hire [Bill Hart](http://wbhart.blogspot.com/)
 as a tenure-track faculty member at UW.
 However, I was told that his publication count was *"a bit light"*, and I did not
 succeed at hiring him. If you printed out the source
-code of software he has written, it would be a tall stake of paper.
+code of software he has written, it would be a tall stack of paper.
 In any case, I totally failed at the politics needed to make
 his case and was left dispirited, realizing my
 personal shortcomings at department politics meant I probably
@@ -71,7 +71,7 @@ UW was also very supportive of me teaching
 an undergrad course on open source math software (it evolved
 into [this](https://github.com/kedlaya/math157)).  I taught
 a similar course at the graduate level once, and it went
-extremely well, and was in mind the best course I ever
+extremely well, and was in my mind the best course I ever
 taught at UW.  I was extremely surprised when my
 application to teach
 that grad course again was denied, and I was told that
@@ -139,7 +139,7 @@ at a coffee break at [The Arizona Winter School 2010](http://swc.math.arizona.ed
 about how [his proposal for ICERM](https://icerm.brown.edu/) 
 had just won the NSF institutes competition.
 I spun around and congratulated him as I listened to how much work it was to put
-together the application during the last yearl internally,
+together the application during the last year; internally,
 my heart sunk.  Not only did I not win, I didn't even know the
 competition had happened! I guess I was too busy working on Sage.
 In any case, my fantasy of creating an NSF-funded institute
@@ -181,14 +181,14 @@ used to fund Sage, this seemed fine to me.  However, I had a nagging feeling
 that a pure closed-source approach to this problem was impossible, and not
 having that flexibility would come back to haunt me.
 
-Naively optimistic, I found myself working fulltime at UW and 
+Naively optimistic, I found myself working fulltime at UW and
 at the same time trying to get a
 sophisticated web application off the ground by myself, with many
 important early users
 depending on it for their classes.  This was stressful and took an enormous
 amount of time and attention.   I felt like I was just part of the software, often getting
 warnings that things were broken or breaking, and **manually** fixing them.
-The toil was high, and only got worse as more people used the software.  
+The toil was high, and only got worse as more people used the software.
 I would get woken up all night.
 I couldn't travel since things were constantly breaking.
 
@@ -277,7 +277,7 @@ rules and laws, and consulted with a lawyer.
 It turns out that the NSF grants I used to fund work on CoCalc
 explicitly stipulated that code funded by those grants had
 to be GPL licensed.  [This meant all the code for CoCalc
-had to be open sourced.](https://news.ycombinator.com/item?id=8967094)  
+had to be open sourced.](https://news.ycombinator.com/item?id=8967094)
 Later the university even agreed
 in writing to release a snapshot of all the CoCalc code
 under the BSD license, and I haven't been paid a penny by
@@ -373,3 +373,7 @@ But more importantly, I feel very good about continuing
 to focus 100% on the development of CoCalc, which is going
 to have an incredible year going forward.     I genuinely love 
 building this (non-VC funded) company, and feel very good about it.
+
+---
+
+[Hacker News Discussion](https://news.ycombinator.com/item?id=19682126)
