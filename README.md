@@ -1,6 +1,6 @@
 # CoCalc Blog
 
-This is the source code for the https://blog.sagemath.com blog.
+This is the source code for the https://blog.cocalc.com blog.
 
 ## Build
 
