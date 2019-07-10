@@ -8,10 +8,11 @@ cd "$(dirname "$0")"
 DOMAIN="blog.cocalc.com"
 export DOMAIN
 
-gsutil acl ch -u AllUsers:R gs://${DOMAIN}
+# we use bucket-level auth
+#gsutil acl ch -u AllUsers:R gs://${DOMAIN}
 
 # set default acl for any newly created file
-gsutil defacl ch -u AllUsers:R gs://${DOMAIN}
+#gsutil defacl ch -u AllUsers:R gs://${DOMAIN}
 # otherwise for each file ...
 
 # upload the files
