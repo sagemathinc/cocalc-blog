@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 # run make.sh again (don't run preview!!!)
 ./make.sh
 
-DOMAIN="blog.sagemath.com"
+DOMAIN="blog.cocalc.com"
 export DOMAIN
 
 gsutil acl ch -u AllUsers:R gs://${DOMAIN}
