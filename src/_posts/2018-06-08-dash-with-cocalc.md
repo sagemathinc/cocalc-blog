@@ -5,6 +5,8 @@ title: "Dash with CoCalc"
 categories: ['cocalc','python']
 ---
 
+_NOTE:_ This blog posting has been updated. See [Dash with CoCalc (2021 version)](../../../2021/05/03/dash-with-cocalc.html) for the updated article.
+
 Create interactive data visualizations for collaborators in your CoCalc projects using [Dash](https://plot.ly/products/dash/).
 
 Dash is an open-source framework to create web applications with Python.
