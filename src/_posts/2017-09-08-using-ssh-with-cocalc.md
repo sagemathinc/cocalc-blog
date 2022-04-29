@@ -152,14 +152,14 @@ You can then configure the following in
         AddKeysToAgent yes
         Hostname ssh.cocalc.com
         User c089024693dc11e787386acae7a6ca2d
-        IdentityFile ~/.ssh/ccdev_ed25529.pub
+        IdentityFile ~/.ssh/ccdev_ed25529
 
     Host P2
         IdentitiesOnly yes
         AddKeysToAgent yes
         Hostname ssh.cocalc.com
         User c218c8da93dc11e780626acae7a6ca2d
-        IdentityFile ~/.ssh/ccdev_ed25529.pub
+        IdentityFile ~/.ssh/ccdev_ed25529
 </pre>
 
 Users of macOS may want to add [UseKeychain yes](https://developer.apple.com/library/content/technotes/tn2449/_index.html) to each host specification.
